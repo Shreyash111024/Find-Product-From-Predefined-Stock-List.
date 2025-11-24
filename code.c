@@ -38,7 +38,7 @@ int main() {
             if (S1[i].id == b) {
                 printf("\n-------------------------------------\n");
                 printf("Name:%s\nPrice:%d\n", S1[i].name, S1[i].price);
-                break;   // only break if found
+                break;
             }
         }
 
@@ -57,7 +57,7 @@ int main() {
             if (S1[i].price == c) {
                 printf("\n-------------------------------------\n");
                 printf("Name:%s\nID:%d\n", S1[i].name, S1[i].id);
-                break;  // only break if found
+                break;  
             }
         }
 
